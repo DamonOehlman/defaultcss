@@ -19,7 +19,7 @@
   ## Example Usage
 
   <<< examples/widget.js
-  
+
 **/
 module.exports = function(label, text) {
   var styleId = label + '_defaultstyle';
@@ -33,7 +33,7 @@ module.exports = function(label, text) {
   // if we can find a DOM element with that id, then do nothing as a default
   // style has already been applied
   if (styleEl) {
-    return;
+    return styleEl;
   }
 
   // otherwise, create a style element
