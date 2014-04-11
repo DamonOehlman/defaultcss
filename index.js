@@ -20,6 +20,20 @@
 
   <<< examples/widget.js
 
+  ## Reference
+
+  ### defaultcss
+
+  ```
+  defaultcss(label, csstext)
+  ```
+
+  Create a new default `style` element and use the provided `label` to
+  generate an id for the element "%label%_defaultstyle".  If an existing
+  element with that id is found, then do nothing.
+
+  If not, then create the new element and use the provided `csstext` as
+  `innerText` for th element.
 **/
 module.exports = function(label, text) {
   var styleId = label + '_defaultstyle';

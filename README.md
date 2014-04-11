@@ -26,6 +26,21 @@ defaultcss('widget', '.widget { background: red; width: 50px; height: 50px }');
 document.body.appendChild(crel('div', { class: 'widget' }));
 ```
 
+## Reference
+
+### defaultcss
+
+```
+defaultcss(label, csstext)
+```
+
+Create a new default `style` element and use the provided `label` to
+generate an id for the element "%label%_defaultstyle".  If an existing
+element with that id is found, then do nothing.
+
+If not, then create the new element and use the provided `csstext` as
+`innerText` for th element.
+
 ## License(s)
 
 ### ISC
