@@ -1,6 +1,6 @@
 {
   "name": "defaultcss",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "A simple module for adding default style definition within your HTML",
   "main": "index.js",
   "scripts": {
