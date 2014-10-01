@@ -19,9 +19,9 @@
   "author": "Damon Oehlman <damon.oehlman@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/DamonOehlman/defaultstyle/issues"
+    "url": "https://github.com/DamonOehlman/defaultcss/issues"
   },
-  "homepage": "https://github.com/DamonOehlman/defaultstyle",
+  "homepage": "https://github.com/DamonOehlman/defaultcss",
   "devDependencies": {
     "crel": "^1.1.1"
   }
