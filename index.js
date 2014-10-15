@@ -52,7 +52,7 @@ module.exports = function(label, text) {
 
   // otherwise, create a style element
   styleEl = document.createElement('style');
-  styleEl.innerText = text;
+  styleEl.innerHTML = text;
 
   // insert the style element, in order or preference
   // 1. before the first style related element in the page
